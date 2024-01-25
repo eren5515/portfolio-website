@@ -1,0 +1,26 @@
+.footer-div {
+    background-color: #2d2e32;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 3.5rem 13rem;
+    h1 {
+        color: white;
+        font-weight: 700;
+        font-size: 1.4rem;
+    }
+
+    .github-linkedin {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1125px) { 
+
+
+    .footer-div{
+        flex-direction: column;
+        padding: 3.5rem 1rem;
+        gap: 1.1rem;
+    }
+}

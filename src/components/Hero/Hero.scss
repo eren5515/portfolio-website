@@ -1,0 +1,225 @@
+
+
+.hero-div  {
+
+h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #ccf381;
+    line-height: 1;
+}
+
+h2 {
+    color: white;
+   font-weight: 400;
+    font-size: 1.32rem;
+    span {
+        color: #ccf381;
+        font-weight: 700;
+
+    }
+}
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 9.9rem;
+padding-top: 11rem;
+padding-bottom: 7rem;
+
+
+background: linear-gradient(90deg, #4831d4 68.3%, rgb(204, 243, 129) 33.7%);
+
+   
+}
+.hero-left {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.hero-right {
+    position: relative;
+    width: 25rem;
+    img {
+        
+        border: 3px solid white;
+        width: 25rem;
+        z-index: 111;
+        position: absolute;        
+        
+       
+    }
+    
+}
+
+.hero-right:hover {
+    .img-frame-div {
+        background-color: white;
+        top: 3%;
+        right: -3%;
+
+        transition: top 1s,right 1s, background-color 1s;
+    }
+}
+
+.github-linkedin {
+    svg {
+        width: 2.5rem;
+        color: white;
+    }
+
+    display: flex;
+    gap: 1.2rem;
+    padding-left: 0.3rem;
+    padding-top: 3rem;
+}
+
+.img-frame-div {
+    width: 25rem;
+    height: 22.5rem;
+    border: 3px solid white;
+    position: absolute;
+    right: -8%;
+    top: 8%;
+}
+
+
+.tech-div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    h3 {
+        color: white;
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+}
+
+
+
+.tech-icons-div {
+
+    display: flex;
+    gap: 0.7rem;
+
+    div {
+        height: 100%;
+        width: 3rem;
+        height: 3rem;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        h4 {
+            opacity: 0;
+
+            position: absolute;
+            bottom: -50%;
+            color: white;
+            font-weight: 700;
+            text-align: center;
+        }
+
+    }
+
+   img {
+    
+    height: max-content;
+    position: absolute;
+    width:100%;
+    margin: 0;
+  
+    top: 0;
+
+    
+   }
+    
+
+  
+}
+
+.tech-icons-div div:hover {
+    img {
+        top: -20%;
+    transition: all 0.6s;
+   
+    }
+
+    h4 {
+        opacity: 100%;;
+        transition: opacity 1s;
+    }
+
+    
+       
+      
+
+        
+
+   }
+
+   
+
+   .icon-and-h4 {
+    margin: 0;
+   }
+
+
+   @media screen and (max-width: 1125px) {
+
+    .hero-div {
+        flex-direction: column-reverse;
+        background:none;
+       align-items: center;
+       padding: 0;
+       gap: 0;
+    }
+
+    .hero-left {
+        width: 100%;
+        background-color: #4831d4;
+        padding: 5rem 3rem;
+
+    }
+
+    .hero-right {
+        background-color: #ccf381;
+        width: 100%;
+        padding: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+       
+       
+        img {
+position: relative;
+width: auto;
+height: auto;
+        }
+    }
+
+    .img-frame-div {
+        display: none;
+    }
+
+
+
+    .tech-icons-div {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+    }
+
+    .tech-div {
+        flex-direction: column;
+    }
+
+
+    .github-linkedin {
+        justify-content: center;
+    }
+   }

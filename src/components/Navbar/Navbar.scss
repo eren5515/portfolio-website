@@ -1,0 +1,87 @@
+nav {
+  padding: 0 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  background: linear-gradient(90deg, #4831d4 68.3%, rgb(204, 243, 129) 33.7%);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+
+  z-index: 522;
+
+  a {
+    color: #4831d4;
+    font-size: 1.33rem;
+    font-weight: 700;
+  }
+  a:hover {
+    color: white;
+    transition: color 0.3s;
+    cursor: pointer;
+  }
+
+  div {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 1.5rem;
+    height: max-content;
+    padding: 1.5rem;
+  }
+}
+
+.mobile-nav {
+  display: none;
+}
+
+@media screen and (max-width: 1125px) {
+  nav {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+    position: relative;
+    svg {
+      width: 1.6rem;
+      position: absolute;
+
+      right: 7%;
+      margin-top: 1.2rem;
+      z-index: 222;
+    }
+  }
+
+  .mobile-nav-links {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+    a {
+      font-size: 2rem;
+      font-weight: 500;
+    }
+
+
+    svg {
+      position: absolute;
+      top: 3%;
+      right: 9%;
+    }
+  }
+
+  .passive {
+    display: none;
+  }
+}
