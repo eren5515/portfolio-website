@@ -13,7 +13,7 @@ export default function About() {
         <div className="about-right-div">
         <h1>About Me</h1>
         <h2>Software Developer from Istanbul, Turkey</h2>
-        <p>Hello, my name is Eren, and I want to pursue Software Development career. I mostly worked on Front-end Development with ReactJS but i'm also familiar with Back-end (NodeJS, SQL) and Object Oriented Programming (C#). 
+        <p>Hello, my name is Eren. I am passionate about Software Development. I mostly worked on Front-end Development with ReactJS but i'm also familiar with Back-end (NodeJS, SQL) and Object Oriented Programming (C#). 
 
 </p>
 

@@ -95,17 +95,27 @@ export default function Projects() {
 
       <div className="project-div">
         <img
-          src="https://cdn.discordapp.com/attachments/336171716126572548/1200203632310755468/image.png?ex=65c553bc&is=65b2debc&hm=2c02f6a60e8d2522dabe346d98c0d6d7d9a9a7f747503384fe54df55f31474eb&"
+          src="https://cdn.discordapp.com/attachments/336171716126572548/1201290827247394816/image.png?ex=65c94844&is=65b6d344&hm=36b513498b08e90d6de092274dacc6be8926476677e99c7ad65aa0e592b38f38&"
           alt=""
         />
         <div className="project-info-div">
-          <h2>Calculator</h2>
-          <p>This is a simple calculator app built with ReactJS.</p>
+          <h2>Crypto Website</h2>
+          <p>
+            This is a website that allows users to search for information about
+            various crypto currencies in real-time. The website is designed to
+            provide users with accurate and up-to-date information about the
+            price, market cap, trading volume, and other key metrics of
+            cryptocurrencies.
+          </p>
           <div className="project-info-tech">
             <h3>ReactJS</h3>
+            <h3>Tailwind</h3>
+            <h3>SCSS</h3>
+            <h3>CoinGecko API</h3>
+
           </div>
           <div className="project-links">
-            <a href="https://github.com/eren5515/Calculator" target="_blank">
+            <a href="https://github.com/eren5515/Crypto-Website" target="_blank">
               <div className="flex justify-center items-center">
                 <h4>Code</h4>
                 <FontAwesomeIcon
@@ -115,7 +125,7 @@ export default function Projects() {
               </div>
             </a>
 
-            <a href="https://calculator-gilt-pi.vercel.app" target="_blank">
+            <a href="https://crypto-website-silk.vercel.app/" target="_blank">
               <div className="flex justify-center items-center">
                 <h4>Live Demo</h4>
                 <FontAwesomeIcon
@@ -132,11 +142,11 @@ export default function Projects() {
         <div className="project-info-div">
           <h2>Shopping</h2>
           <p>
-          This is a simple responsive shopping site built with React. You can filter items by available sizes and add items to the cart.
+            This is a simple responsive shopping site built with React. You can
+            filter items by available sizes and add items to the cart.
           </p>
           <div className="project-info-tech">
             <h3>ReactJS</h3>
-           
           </div>
           <div className="project-links">
             <a href="https://github.com/eren5515/shoppingSite" target="_blank">
