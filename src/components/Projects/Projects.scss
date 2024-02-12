@@ -83,11 +83,13 @@
     padding: 0;
     justify-content: center;
     align-items: center;
+    padding-bottom: 3rem;
 }
 
 .project-div {
     flex-direction: column;
     width: 90%;
+    gap: 2rem;
 }
 
 .project-info-div {

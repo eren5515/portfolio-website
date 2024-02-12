@@ -48,7 +48,14 @@
 @media screen and (max-width: 1125px) {
 
 .contact-div {
-    padding: 12rem 3rem;
+    padding: 6rem 3rem;
+
+    h1 {
+        text-align: center;
+    }
+    .github-linkedin {
+        margin-top: 2rem;
+    }
 }
 
 .mail-location-div {
@@ -58,5 +65,8 @@
         flex-direction: column;
         align-items: center;
     }
+    padding-top: 1rem;
 }
+
+
 }
