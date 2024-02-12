@@ -4,8 +4,8 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-
   background: linear-gradient(90deg, #4831d4 68.3%, rgb(204, 243, 129) 33.7%);
+  transition: all 0.45s;
 
   display: flex;
   flex-direction: row;
@@ -32,6 +32,13 @@ nav {
     height: max-content;
     padding: 1.5rem;
   }
+}
+.nav-scrolled {
+  
+  background: white;
+box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+transition: all 0.45s;
+
 }
 
 .mobile-nav {
@@ -76,8 +83,8 @@ nav {
 
     svg {
       position: absolute;
-      top: 3%;
-      right: 9%;
+      top: 0%;
+     
     }
   }
 

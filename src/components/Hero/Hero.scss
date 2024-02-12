@@ -73,7 +73,40 @@ background: linear-gradient(90deg, #4831d4 68.3%, rgb(204, 243, 129) 33.7%);
     display: flex;
     gap: 1.2rem;
     padding-left: 0.3rem;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+
+.hero-icons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
     padding-top: 3rem;
+    
+
+
+    h3{
+        color:  rgb(204, 243, 129);
+        font-weight: 700;
+        text-align: center;
+        font-size: 1.3rem;
+        
+    }
+    a {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        color:  rgb(204, 243, 129);
+        .resume-download-icon{
+            width: 1.6rem;
+            margin-right: 2.5rem;
+        }
+        gap:0.4rem
+    }
 }
 
 .img-frame-div {
@@ -169,6 +202,9 @@ background: linear-gradient(90deg, #4831d4 68.3%, rgb(204, 243, 129) 33.7%);
 
 
    @media screen and (max-width: 1125px) {
+    .resume-download-icon {
+        margin-right: 0!important;
+    }
 
     .hero-div {
         flex-direction: column-reverse;
@@ -176,6 +212,10 @@ background: linear-gradient(90deg, #4831d4 68.3%, rgb(204, 243, 129) 33.7%);
        align-items: center;
        padding: 0;
        gap: 0;
+       h1 {
+        text-align: center!important;
+        font-size: 3.6rem;
+       }
     }
 
     .hero-left {

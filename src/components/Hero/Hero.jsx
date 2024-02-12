@@ -2,13 +2,13 @@ import "@/components/Hero/Hero.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-
+import {faDownload, faArrowDown} from"@fortawesome/free-solid-svg-icons";
 export default function Hero() {
   return (
     <div id="home" className="hero-div">
       <div className="hero-left">
         <h1>Software Developer.</h1>
-
+      
         <h2>
           {" "}
           Hello, My name is <span>Mehmet Eren Kılıç</span>, I am a 4th year
@@ -16,6 +16,7 @@ export default function Hero() {
           <span>Istanbul Technical University</span> who wants to pursue a
           sofware development career from <span>Istanbul, Turkey</span>.
         </h2>
+        <div className="hero-icons-container">
         <div className="github-linkedin">
           <a
             href="https://www.linkedin.com/in/mehmet-eren-kılıç-82a5781ba/"
@@ -27,6 +28,9 @@ export default function Hero() {
             <FontAwesomeIcon icon={faGithub} style={{ color: "#ccf381" }} />
           </a>
         </div>
+        <a href="https://cdn.discordapp.com/attachments/336171716126572548/1206686097770291220/CV.pdf?ex=65dce900&is=65ca7400&hm=3925e3dc21558184122be05cda06e954b889fb094aed8b051953331ac0fd612a&"><h3>My Resume </h3> <FontAwesomeIcon className="resume-download-icon" icon={faDownload} size="2xs" style={{color: " rgb(204, 243, 129)",}} /></a>
+        </div>
+
 
         <div className="tech-div">
           <h3>Skills:</h3>{" "}

@@ -5,16 +5,32 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 
 export default function Navbar() {
 
   const [isOpen, setIsOpen]= useState(false);
 
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    changeBackground()
+    window.addEventListener("scroll", changeBackground)
+  }) 
+
+  const changeBackground = () => {
+
+    if (window.scrollY >= 800) {
+      setIsScrolled(true)
+    } else {
+      setIsScrolled(false)
+    }
+  }
+
   return (
     <>
-    <nav>
+    <nav className={isScrolled?"nav-scrolled":""}>
         <div>
         <a href="#home">Home</a>
         <a href="#about">About</a>
