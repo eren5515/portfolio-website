@@ -10,7 +10,7 @@ export default function Projects() {
 
       <div className="project-div">
       <img
-          src="https://cdn.discordapp.com/attachments/336171716126572548/1200202912345890896/image.png?ex=65c55310&is=65b2de10&hm=31908462e78ca98fb6468cdb1e0010af44b8f6ac6c10074703e9328c1fe177f6&"
+          src="https://github.com/eren5515/asd/blob/main/resim_2024-02-26_153454553.png?raw=true"
           alt=""
         />
         <div className="project-info-div">
@@ -53,7 +53,7 @@ export default function Projects() {
 
       <div className="project-div">
       <img
-          src="https://cdn.discordapp.com/attachments/336171716126572548/1200202469511286864/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3333363137313731363132363537323534382f313138353639333336333331363437333931382f696d6167652e706e673f65783d36353930383966652669733d36353.png?ex=65c552a7&is=65b2dda7&hm=e38ad9418bc00a880886fb3aa991ea4128db7a9734cd7febfee0ea2d5558ae2b&"
+          src="https://camo.githubusercontent.com/dae809189fbbe10c0169c2e21701d4ae634fe5d94b32fdaa2145d387d7eb6aa2/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3333363137313731363132363537323534382f313138353639333336333331363437333931382f696d6167652e706e673f65783d36353930383966652669733d363537653134666526686d3d3765353266346661363764616235653433613630643134323863356431333030646266336166626135323436313162356434666166303331643934333237363326"
           alt=""
         />
         <div className="project-info-div">
@@ -97,7 +97,7 @@ export default function Projects() {
 
       <div className="project-div">
       <img
-          src="https://cdn.discordapp.com/attachments/336171716126572548/1201290827247394816/image.png?ex=65c94844&is=65b6d344&hm=36b513498b08e90d6de092274dacc6be8926476677e99c7ad65aa0e592b38f38&"
+          src="https://github.com/eren5515/asd/blob/main/resim_2024-02-26_152959753.png?raw=true"
           alt=""
         />
         <div className="project-info-div">
@@ -144,7 +144,7 @@ export default function Projects() {
 
       <div className="project-div">
       <img
-          src="https://cdn.discordapp.com/attachments/336171716126572548/1200204505984278559/image.png?ex=65c5548c&is=65b2df8c&hm=aaed2bfc79e397603048658ecbd860583a1a30d8c5e2a36f11b0163447ddcf43&"
+          src="https://github.com/eren5515/asd/blob/main/resim_2024-02-26_153312162.png?raw=true"
           alt=""
         />
         <div className="project-info-div">

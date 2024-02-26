@@ -95,7 +95,7 @@ export default function Hero() {
 
       <div className="hero-right">
         <img
-          src="https://cdn.discordapp.com/attachments/1051487919258480765/1199865672621109410/image.png?ex=65c418fc&is=65b1a3fc&hm=edd2b350980408315bbe75b6dc4b5da12139bb47951ea2c01e279d02e8df8434&"
+          src="https://github.com/eren5515/asd/blob/main/resim_2024-02-26_152737320.png?raw=true"
           alt=""
         />
         <div className="img-frame-div"></div>
