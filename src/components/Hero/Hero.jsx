@@ -28,7 +28,7 @@ export default function Hero() {
             <FontAwesomeIcon icon={faGithub} style={{ color: "#ccf381" }} />
           </a>
         </div>
-        <a href="https://cdn.discordapp.com/attachments/336171716126572548/1206686097770291220/CV.pdf?ex=65dce900&is=65ca7400&hm=3925e3dc21558184122be05cda06e954b889fb094aed8b051953331ac0fd612a&"><h3>My Resume </h3> <FontAwesomeIcon className="resume-download-icon" icon={faDownload} size="2xs" style={{color: " rgb(204, 243, 129)",}} /></a>
+        <a href="https://cdn.discordapp.com/attachments/1051487919258480765/1216112911395590315/CV.pdf?ex=65ff3468&is=65ecbf68&hm=37fd4eb910d9c43fff512fef502344e1edcac98a7fc24c2f112af10319496b98&"><h3>My Resume </h3> <FontAwesomeIcon className="resume-download-icon" icon={faDownload} size="2xs" style={{color: " rgb(204, 243, 129)",}} /></a>
         </div>
 
 
